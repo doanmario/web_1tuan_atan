@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.header{
+background: black;
+height: 40px;
+}
+.header .left >span{
+    color: white;
+    display: inline-block;
+    padding: 5px 0;
+    margin-right: 15px;
+
+}
+.header .left >span i
+{
+    display: inline-block;
+    padding: 5px 7px;
+    background: red;
+    border-radius: 5px;
+}
+ol,ul{
+    list-style: none;
+}
+.right{
+    clear: both;
+}
+.right ul{
+    float: right;
+
+}
+.right ul li{
+    display: inline-block;
+    padding: 5px 0px;
+}
+.right ul li a{
+        color: white;
+        display: block;
+        padding:0px 10px ;
+        border-left: 1px solid white;
+}
+.header_mid{
+    padding: 20px 0px 15px;
+}
+.box-search{
+    width: 280px;
+    border:1px solid #cccccc;
+    padding-right: 40px;
+    position: relative;
+    margin-top:15px;
+    margin-left: 50px;
+}
+.box-search input{
+    width: 100%;
+    height: 34px;
+    border:none;
+    padding-left: 10px;
+}
+.btnSearch{
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #ccc;
+}
+.box-cart{
+        display: inline-block;
+        background: rgba(244,244,244,1);
+        background: -moz-linear-gradient(left, rgba(244,244,244,1) 0%, rgba(219,219,219,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(244,244,244,1)), color-stop(100%, rgba(219,219,219,1)));
+        background: -webkit-linear-gradient(left, rgba(244,244,244,1) 0%, rgba(219,219,219,1) 100%);
+        background: -o-linear-gradient(left, rgba(244,244,244,1) 0%, rgba(219,219,219,1) 100%);
+        background: -ms-linear-gradient(left, rgba(244,244,244,1) 0%, rgba(219,219,219,1) 100%);
+        background: linear-gradient(to right, rgba(244,244,244,1) 0%, rgba(219,219,219,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#dbdbdb', GradientType=1 );
+        border-radius: 5px;
+        padding: 0px 10px 5px 0px ;
+        float: right;
+    }
+.box-cart >div{
+    padding-left: 50px;
+    background:url(./img/giohang.png) no-repeat 10px center;   
+}
+.box-cart >div p{
+    margin: 0;
+    padding: 0;
+
+}
+.box-cart > div p:first{
+    color: red;
+}
+a:hover{
+    text-decoration: none;
+}
+/* Hết header */
+.title_mm{
+    background:black;
+    padding: 10px 20px ;
+}
+.title_mm h4{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+    
+    text-align: center;
+
+    
+
+}
+.title_mm h4 i{
+    font-size: 25px;
+}
+.paddingright0{
+    padding-right: 0;
+}
+.paddingleft0{
+    padding-left: 0;
+}
+.sangtrai{
+    float: left;
+}
+.sangphai{
+    float:right;
+    margin-right: -1px;
+}
+
+.block-menu{
+    background: #eaeaea;
+}
+.block-menu ul{
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid #000000;
+    padding: 8px 38px ;   
+}
+.block-menu  > ul > li{
+     display: inline-block;
+}
+.block-menu a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    
+    padding: 0px 20px;
+    text-transform: uppercase;
+}
+.box-menu-left{
+    clear: both;
+}
+.box-menu-left ul{
+    border:1px solid #dfdfdf;
+}
+.box-menu-left ul li{
+    display: block;
+}
+.box-menu-left > ul > li >a {
+    display: block;
+    height: 40px;
+    color: #000;
+    border-bottom:1px solid #dfdfdf ;
+    line-height: 39px;
+    padding: 0px 10px 0px 10px;
+    text-transform: uppercase;
+} 
+.box-menu-left > ul > li >a:hover {
+background: orange;
+} 
+.box-menu-left > ul > li >a span{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 8px;
+}
+.box-menu-left > ul > li >a i{
+    line-height: 35px;
+}
+.anhsp{
+height: 315px;
+background: #000;
+}
+.paddingright10{
+    padding-right: 10px;
+}
+.paddingleft10{
+    padding-left: 25px;
+}
+.paddingleft5{
+    padding-left: 5px;
+}
+
+.slider img{
+    border: 2px solid #dfdfdf;
+}
+.anh{
+    margin-right: 10px;
+}
+.phai{
+    flex-direction: column;
+}
+.hinhanh{
+    width: 100%;
+    display: flex;  
+    justify-content: space-around;
+}
+.hinhanh .bentrai{
+    margin-left: 15px;
+}
+.hinhanh .benphai{
+    margin-left: 15px;
+   
+}
+.benduoi.tayphai{
+ margin-left: 20px;
+}
+.benduoi{
+    height: 200px;
+    
+}
+.benduoi img{
+    width: 98%;
+}
+/* Cột bên trái */
+.content_left{
+    margin-top: -25px;
+}
+.col_left{
+    border: 1px solid #dfdfdf;
+}
+.title_left{
+    font-size: 15px;
+    background: rgba(244,244,244,1);
+background: -moz-linear-gradient(top, rgba(244,244,244,1) 0%, rgba(219,219,219,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(244,244,244,1)), color-stop(100%, rgba(219,219,219,1)));
+background: -webkit-linear-gradient(top, rgba(244,244,244,1) 0%, rgba(219,219,219,1) 100%);
+background: -o-linear-gradient(top, rgba(244,244,244,1) 0%, rgba(219,219,219,1) 100%);
+background: -ms-linear-gradient(top, rgba(244,244,244,1) 0%, rgba(219,219,219,1) 100%);
+background: linear-gradient(to bottom, rgba(244,244,244,1) 0%, rgba(219,219,219,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#dbdbdb', GradientType=0 );
+text-transform: uppercase;
+padding:6px 10px;
+border-bottom: 3px solid #000;
+}
+.col_left_content{
+ padding: 20px 0px;
+}
+
